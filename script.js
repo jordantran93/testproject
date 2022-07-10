@@ -166,7 +166,13 @@ $(window).resize(function(){
     if(window.innerWidth >767){
         $("#ntf-sidebar").width("100%");
     }else{
-        $("#ntf-sidebar").width("0");
+        $("#ntf-sidebar").width("1");
     }
 
 });
+
+
+
+$("#ntf-sidebar").width("1");
+
+test1
